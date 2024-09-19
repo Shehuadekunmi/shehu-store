@@ -133,7 +133,7 @@ const Header = () => {
 
             {dropdownOpen && userInfo && (
               <ul
-                className={`absolute right-0 mt-2 mr- space-y-2 z-40 bg-white text-gray-600 ${
+                className={`absolute right-0 mt-2 mr space-y-2 z-40 bg-white text-gray-600 ${
                   !userInfo.isAdmin ? "top-" : "top- z-30"
                 } `}
               >
